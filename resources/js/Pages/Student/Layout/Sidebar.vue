@@ -1,0 +1,131 @@
+<template>
+  <div class="page-sidebar">
+    <div class="main-header-left d-none d-lg-block">
+      <div class="logo-wrapper txt-light" style="padding-left: 32% !important">
+        <img id="logo-7" :src="$page.props.logo" class="w-16 h-16" style="border-radius: 2px; height: 3rem !important;">
+      </div>
+    </div>
+    <div class="sidebar custom-scrollbar">
+      <ul class="sidebar-menu">
+        <li :class="{ current: activeRoute('student.profile') }">
+          <Link :href="route('student.profile')" class="sidebar-header">
+          <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 52 52"
+            enable-background="new 0 0 52 52" xml:space="preserve">
+            <path d="M50,43v2.2c0,2.6-2.2,4.8-4.8,4.8H6.8C4.2,50,2,47.8,2,45.2V43c0-5.8,6.8-9.4,13.2-12.2
+                	c0.2-0.1,0.4-0.2,0.6-0.3c0.5-0.2,1-0.2,1.5,0.1c2.6,1.7,5.5,2.6,8.6,2.6s6.1-1,8.6-2.6c0.5-0.3,1-0.3,1.5-0.1
+                	c0.2,0.1,0.4,0.2,0.6,0.3C43.2,33.6,50,37.1,50,43z M26,2c6.6,0,11.9,5.9,11.9,13.2S32.6,28.4,26,28.4s-11.9-5.9-11.9-13.2
+                	S19.4,2,26,2z" />
+          </svg> <span>{{ __('Profile') }}</span>
+          </Link>
+        </li>
+        <li :class="{ current: activeRoute('student.dashboard') }">
+          <Link :href="route('student.dashboard')" class="sidebar-header">
+          <svg width="800px" height="800px" viewBox="0 0 15 15" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.8254 0.120372C7.63815 -0.0401239 7.36185 -0.0401239 7.1746 0.120372L0 6.27003V13.5C0 14.3284 0.671573 15 1.5 15H5.5C5.77614 15 6 14.7761 6 14.5V11.5C6 10.6716 6.67157 10 7.5 10C8.32843 10 9 10.6716 9 11.5V14.5C9 14.7761 9.22386 15 9.5 15H13.5C14.3284 15 15 14.3284 15 13.5V6.27003L7.8254 0.120372Z"
+              fill="#fff" />
+          </svg> <span>{{ __('Home') }}</span>
+          </Link>
+        </li>
+        <li :class="{ current: activeRoute('student.active-lessons.index') }">
+          <Link :href="route('student.active-lessons.index')" class="sidebar-header">
+          <svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26.528px" height="26.527px"
+            viewBox="0 0 26.528 26.527" style="enable-background:new 0 0 26.528 26.527;" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M7.633,5.648c-0.066,0.21-0.134,0.419-0.174,0.639C7.413,6.56,7.388,6.843,7.388,7.128c0,2.823,2.38,5.108,5.316,5.108
+        			c2.935,0,5.313-2.285,5.313-5.108c0-0.564-0.117-1.097-0.292-1.604l1.08-1.431L16.87,3.439l0.379-1.899l-2.362,0.648L13.801,0
+        			l-2.016,2.021l-1.563-1.74L9.487,2.58L6.978,1.79l0.945,2.031L6.098,4.313L7.633,5.648z" />
+                <path d="M23.583,24.098v-0.025h-0.092V23.4h-0.877l-0.13-2.086l-0.26,0.093c-0.776,0.274-1.542,0.409-2.342,0.409
+        			c-0.152,0-0.294-0.019-0.438-0.026l-0.213-8.137l-3.896-0.646c0,0-0.728,2.146-2.729,2.259c-2.002,0.112-2.76-2.259-2.76-2.259
+        			L6.364,13.65l-0.261,8.12c-0.537-0.057-1.066-0.175-1.6-0.363l-0.262-0.092l-0.128,2.084h-0.91v0.672v0.025H0.475v2.432h1.76H9.83
+        			h7.975h7.079h1.168v-2.432h-2.47V24.098z M14.84,21.264c0.48-0.053,1.087,0.127,1.809,0.338c0.883,0.258,1.979,0.58,3.234,0.58
+        			c0.762,0,1.492-0.113,2.229-0.348l0.084,1.381h-8.625C13.594,22.725,13.758,21.382,14.84,21.264z M4.617,21.834
+        			c0.734,0.234,1.465,0.348,2.226,0.348h0.002c1.255,0,2.352-0.32,3.233-0.58c0.722-0.211,1.329-0.391,1.81-0.338
+        			c1.079,0.118,1.245,1.459,1.27,1.952H4.531L4.617,21.834z" />
+              </g>
+            </g>
+          </svg> <span>{{ __('Lessons') }}</span>
+          </Link>
+        </li>
+        <li :class="{ current: activeRoute('student.assignments.index') }">
+          <Link :href="route('student.assignments.index')" class="sidebar-header">
+          <svg fill="#fff" width="800px" height="800px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M1468.214 0v564.698h-112.94V112.94H112.94v1694.092h1242.334v-225.879h112.94v338.819H0V0h1468.214Zm129.428 581.311c22.137-22.136 57.825-22.136 79.962 0l225.879 225.879c22.023 22.023 22.023 57.712 0 79.848l-677.638 677.637c-10.616 10.504-24.96 16.49-39.98 16.49h-225.88c-31.17 0-56.469-25.299-56.469-56.47v-225.88c0-15.02 5.986-29.364 16.49-39.867Zm-155.291 314.988-425.895 425.895v146.031h146.03l425.895-425.895-146.03-146.03Zm-764.714 346.047v112.94H338.82v-112.94h338.818Zm225.88-225.88v112.94H338.818v-112.94h564.697Zm734.106-315.44-115.424 115.425 146.03 146.03 115.425-115.423-146.031-146.031ZM1129.395 338.83v451.758H338.82V338.83h790.576Zm-112.94 112.94H451.759v225.878h564.698V451.77Z"
+              fill-rule="evenodd" />
+          </svg> <span>{{ __('Assignments') }}</span>
+          </Link>
+        </li>
+        <li :class="{ current: activeRoute('student.assessments.index') }">
+          <Link :href="route('student.assessments.index')" class="sidebar-header">
+          <svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M569.9 921.1H228V139h97.2c8.5 17.7 26.5 29.9 47.3 29.9h279.1c20.8 0 38.9-12.3 47.3-29.9h96.7v458.1c0 11 9 20 20 20s20-9 20-20V130.3c0-17.3-14.3-31.3-31.8-31.3H701.1c-7.2-20.3-26.7-35-49.5-35H372.5c-22.7 0-42.2 14.7-49.5 35H219.7c-17.5 0-31.8 14-31.8 31.3v799.6c0 17.3 14.3 31.3 31.8 31.3h350.2c11 0 20-9 20-20s-8.9-20.1-20-20.1z"
+              fill="#fff" />
+            <path
+              d="M706.4 404.6c0-11-9-20-20-20H319.1c-5.4-5.3-12.8-8.6-21.1-8.6-16.6 0-30 13.4-30 30s13.4 30 30 30c9.5 0 18-4.4 23.5-11.4h364.9c11 0 20-9 20-20zM706.4 542.1c0-11-9-20-20-20H322.1c-5.5-7.4-14.2-12.1-24.1-12.1-16.6 0-30 13.4-30 30s13.4 30 30 30c7.8 0 14.9-3 20.3-7.9h368.1c11 0 20-9 20-20zM320.1 660.6h-0.9c-5.4-5.4-12.9-8.8-21.2-8.8-16.6 0-30 13.4-30 30s13.4 30 30 30c9.5 0 17.9-4.4 23.4-11.2h297.2c11 0 20-9 20-20s-9-20-20-20H320.1zM950.2 529.4c-9.8-5.1-21.9-1.3-27 8.5L729.1 911l-143.6-78.6c-9.6-5.3-21.9-1.7-27.1 7.9-5.3 9.6-1.7 21.9 7.9 27.1l162.1 88.8c9.6 5.3 21.9 1.7 27.1-7.9 0.9-1.7 1.6-3.5 2-5.3l201.2-386.5c5.1-9.8 1.3-22-8.5-27.1z"
+              fill="#fff" />
+            <path
+              d="M723.8 335.1h-429c-14.8 0-26.8-12-26.8-26.8v-81.4c0-14.8 12-26.8 26.8-26.8h429c14.8 0 26.8 12 26.8 26.8v81.4c0 14.8-12 26.8-26.8 26.8z"
+              fill="#fff" />
+          </svg> <span>{{ __('Assessments') }}</span>
+          </Link>
+        </li>
+        <li :class="{ current: activeRoute('student.books.index') }">
+            <Link :href="route('student.books.index')" class="sidebar-header">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 6C2 6 3.5 4 7 4C10.5 4 12 6 12 6V20C12 20 10.5 19 7 19C3.5 19 2 20 2 20V6Z"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 6C12 6 13.5 4 17 4C20.5 4 22 6 22 6V20C22 20 20.5 19 17 19C13.5 19 12 20 12 20V6Z"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span>{{ __('Books') }}</span>
+            </Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</template>
+
+<script>
+import { Link } from "@inertiajs/inertia-vue3";
+import image from "@/assets/img/avatar.jpg";
+
+export default {
+  props: {
+    avatar: String,
+  },
+  data() {
+    return {
+      image: image,
+    };
+  },
+  methods: {
+    activeRoute(routeName) {
+      return routeName === route().current();
+    }
+  },
+  components: {
+    Link,
+  },
+};
+</script>

@@ -1,0 +1,369 @@
+/* Container */
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  
+/* Card */
+
+  .card .card-body {
+    padding: 30px !important;
+  }
+  
+  .card .card-header {
+    background-color: #2a3b4b !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+  }
+
+  .card .card-header .card-header-right {
+    border-radius: 0px !important;
+    right: 20px;
+    top: 23px;
+    float: right;
+    padding: 0px !important;
+    position: absolute;
+    background-color: transparent !important;
+}
+  
+.card {
+border-radius: 0px !important;
+}
+
+.header-title {
+	font-family: 'Roboto', sans-serif;
+}
+
+.white {
+    color: #fff !important;
+}
+/* Page Wrapper */
+.page-wrapper .page-main-header {
+    height: 65px !important;
+}
+.page-wrapper .page-body-wrapper .page-body {
+    margin-top: 65px !important;
+}
+/* Sidebar */
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-header {
+    padding-left: 30px !important;
+    padding-top: 15px !important;
+}
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu {
+    padding: 0px !important;
+}
+
+/* Validation */
+.is-invalid {
+	border: 1px solid #dc3545 !important;
+}
+
+/* Dropdown Menu */
+.btn-default {
+	background-color: #f4f4f4 !important;
+	color: #444 !important;
+	border-color: #ddd !important;
+}
+
+.btn-group.show .dropdown-toggle {
+	-webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+	box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+.btn-group .dropdown-toggle:active, .btn-group.show .dropdown-toggle {
+	outline: 0;
+}
+.btn-group>.btn:first-child {
+	margin-left: 0;
+}
+.btn-default.active, .btn-default:active, .show>.dropdown-toggle.btn-default {
+	background-image: none;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+	color: #333 !important;
+	background-color: #e6e6e6 !important;
+	border-color: #adadad !important;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+	position: relative;
+	float: left;
+}
+.btn-group-xs>.btn, .btn-xs {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .show>.dropdown-toggle.btn-default.focus, .show>.dropdown-toggle.btn-default:focus, .show>.dropdown-toggle.btn-default:hover {
+	color: #333 !important;
+	background-color: #d4d4d4 !important;
+	border-color: #8c8c8c !important;
+}
+.btn-group.show .dropdown-toggle {
+	-webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+	box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+	box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+.dropdown-menu {
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.show>.dropdown-menu {
+	display: block;
+}
+.pull-right>.dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.dropdown-menu>li>a:hover {
+	background-color: #e1e3e9;
+	color: #333;
+}
+.dropdown-menu>li>a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #777;
+	white-space: nowrap;
+}
+.dropdown-menu>.divider {
+	background-color: #eee;
+}
+.dropdown-menu .divider {
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+a {border-bottom-width:0 !important}
+
+/* BTN Group */
+
+/* Dropdown Menu */
+.btn-default {
+	background-color: #f4f4f4 !important;
+	color: #444 !important;
+	border-color: #ddd !important;
+}
+
+.btn-group.show .dropdown-toggle {
+	-webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+	box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+.btn-group .dropdown-toggle:active, .btn-group.show .dropdown-toggle {
+	outline: 0;
+}
+.btn-group>.btn:first-child {
+	margin-left: 0;
+}
+.btn-default.active, .btn-default:active, .show>.dropdown-toggle.btn-default {
+	background-image: none;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+	color: #333 !important;
+	background-color: #e6e6e6 !important;
+	border-color: #adadad !important;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+	position: relative;
+	float: left;
+}
+.btn-group-xs>.btn, .btn-xs {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .show>.dropdown-toggle.btn-default.focus, .show>.dropdown-toggle.btn-default:focus, .show>.dropdown-toggle.btn-default:hover {
+	color: #333 !important;
+	background-color: #d4d4d4 !important;
+	border-color: #8c8c8c !important;
+}
+.btn-group.show .dropdown-toggle {
+	-webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+	box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+	box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+.dropdown-menu {
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.show>.dropdown-menu {
+	display: block;
+}
+.pull-right>.dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.dropdown-menu>li>a:hover {
+	background-color: #e1e3e9;
+	color: #333;
+}
+.dropdown-menu>li>a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #777;
+	white-space: nowrap;
+}
+.dropdown-menu>.divider {
+	background-color: #eee;
+}
+.dropdown-menu .divider {
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+/* End Dropdown Menu */
+
+/* Input */
+
+.input-group-text {
+	height: 42px !important;
+}
+
+.input {
+	height: 35px !important;
+	border-radius: 3px !important;
+}
+
+.input-height {
+	height: 39px;
+}
+
+/* Modify Login classess */
+
+.w-16 { width: 4rem;}
+.h-16 {
+    height: 4rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex {
+    display: flex;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.right-0 {
+    right: 0px;
+}
+.fixed {
+    position: fixed;
+}
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+.top-0 {
+    top: 0 !important;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+.relative {
+    position: relative;
+}
+.sm\:items-center {
+    align-items: center;
+}
+a {
+    border-bottom-width: 0 !important;
+}
+* a {
+    color: darkslategray;
+    text-decoration: none;
+}
+/* Buttons */
+
+.btn-light {
+    background-color: #d3d8eb !important;
+    border-color: #d3d8eb !important;
+    color: rgb(119, 119, 231) !important;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.active {
+    background-color: #c6cff0 !important;
+    border-color: #c6cff0 !important;
+}
+.page-wrapper .page-body-wrapper .page-body {
+    background-color: #ecf0f5 !important;
+}
+.current {
+    background: rgba(165, 165, 165, 0.59) !important
+}
+
+.h2 {
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.page-wrapper .page-body-wrapper .page-sidebar .main-header-left {
+    height: 65px !important;
+    -webkit-box-shadow: none !important; 
+    box-shadow: none !important; 
+}
+.dot {
+    background-color: #f24484 !important;
+}
